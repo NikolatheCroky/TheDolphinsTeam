@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="navbar">
+                
+                <div class="left">
+                    <div class="nav-links">
+                        <div class="link-wrapper">
+                            <a href="#">Начало </a>
+                            <a href="/chat">Чатове </a>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                
+                <div class="right">
+                    
+                    <div class="title">TheDolphinsTeam</div>
+                    
+                        <!--<div class="login"><a class="Login" href="login.html">Влизане</a></div> -->
+                    
+                    
+                </div>
+                
+            </div>
+
+            <div class="content">
+                <%#  %>
+                
+                <h2>Източници</h2>
+
+                <h4>Код (Програмиране)</h4>
+                <p>
+                    <!--Нямаше сайта да е толкова красив ако не съществуха безплатните
+                    ресурси от 
+                    <a href="https://unsplash.com" style="color: blue;">Unsplash.com</a>.
+                    За това искам за благодаря на хората снимали снимките на сайта.
+                    <br>
+                    Повече информация тук:
+                    <br><a href=""-->
+                    
+                    Сайта изполва няколко JavaScript биоблиотеки (не че някой от вас го разбира, но все едно).
+                    Всички те са в този списък:
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>socket.io</li>
+                        <li>ejs</li>
+                        <li>nodemon (Само за тестовата фаза.)</li>
+                    </ul>
+                    
+                </p>
+                
+            </div>
+
+            <div class="footer">
+
+                <div class="cat0">
+                    Информация
+                    <br>
+
+                    <div class="catContentList">
+                        <a href="">Екип на сайта</a>
+                        <br>
+                        <a href="">Източници</a>
+                        <br>
+                        <a href="">Архив на файлове</a>
+                    </div>
+                </div>
+
+                <div class="cat1">
+                    Въгове и нови неща
+                    <br>
+                    <div class="catContentList">
+                        <a href="">Нови неща</a>
+                        <br>
+                        <a href="">Направете предложение</a>
+                        <br>
+                        <a href="">Съобщете бъг или проблем</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <style>
+            /* ⭐ *** |◾| SITE WIDE CSS |◾| *** ⭐ */
+            
+            .container {
+                background-image: url("http://localhost:3000/res/Images/Back_for_scaling.png");
+                background-repeat: repeat;
+            }
+
+            .content {
+                font-size: 1rem;
+                color:#FFF;
+                margin-left: 20%;
+                margin-right: 20%;
+            }
+            
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+                font-size: 1.3em;
+                background: rgba(128, 128, 128, 0.345962156565);
+            }
+
+            .left {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .right {
+                display: flex;
+            }
+
+            .link-wrapper {
+                height: 22px;
+                border-bottom: 2px solid transparent;
+            }
+
+            .link-wrapper a {
+                color: #8a8a8a;
+                text-decoration: none;
+            }
+
+            .link-wrapper a:hover {
+                color: black;
+                text-decoration-color: black;
+            }
+
+            .title {
+                color: navy;
+            }
+
+
+            .footer {
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-top: 16px;
+                padding-bottom: 0px;
+                background-color: rgba(16, 24, 196, 0.7);
+    
+                display: grid;
+                grid-template-columns:1fr 1fr;
+                /*display: flex;
+                justify-content: space-between;*/
+                font-size: 1.89em;
+                color: forestgreen;
+            }
+
+            .catContentList {
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                padding-top: 40px;
+            }
+
+            .catContentList a {
+                text-decoration: none;
+                color: gray;
+            }
+        </style>
+    </body>
+</html>
